@@ -1,10 +1,10 @@
 
 DIRS := bin obj data
 
-create_dirs: 
-	mkdir -p $(DIRS)
+$(DIRS): 
+	mkdir -p $@
 
-build: create_dirs
+build: $(DIRS)
 
 clean:
 	rm -rf $(DIRS)
