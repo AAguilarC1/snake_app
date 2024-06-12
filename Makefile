@@ -1,4 +1,3 @@
-
 DIRS := bin obj data
 
 $(DIRS): 
