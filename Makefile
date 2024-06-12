@@ -1,5 +1,5 @@
 
-DIRS := bin build data
+DIRS := bin obj data
 
 create_dirs: 
 	$(shell mkdir -p $(DIRS))
